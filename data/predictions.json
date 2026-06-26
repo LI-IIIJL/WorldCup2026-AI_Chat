@@ -1,0 +1,3921 @@
+{
+  "predictions": [
+    {
+      "matchId": 537327,
+      "teamA": {
+        "name": "Mexico",
+        "cnName": "墨西哥",
+        "winProb": 72,
+        "mcWinProb": 71.6
+      },
+      "draw": 18,
+      "teamB": {
+        "name": "South Africa",
+        "cnName": "南非",
+        "winProb": 10,
+        "mcWinProb": 10.4
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "墨西哥ELO评分1875，远高于南非的1514",
+        "墨西哥进攻火力强劲，预期进球2.13",
+        "墨西哥整体实力占优",
+        "墨西哥作为东道主，拥有额外士气加成"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，墨西哥胜率71.6%，平局概率18.0%，南非胜率10.4%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "Mexico",
+          "player": "Santiago Giménez",
+          "reason": "锋线希望"
+        },
+        {
+          "team": "South Africa",
+          "player": "Percy Tau",
+          "reason": "进攻尖刀"
+        }
+      ],
+      "mcDraw": 18.0,
+      "homeElo": 1875,
+      "awayElo": 1514,
+      "homeLambda": 2.13,
+      "awayLambda": 0.65,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537328,
+      "teamA": {
+        "name": "South Korea",
+        "cnName": "韩国",
+        "winProb": 39,
+        "mcWinProb": 38.8
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Czechia",
+        "cnName": "捷克",
+        "winProb": 35,
+        "mcWinProb": 34.8
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料",
+        "韩国整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，韩国胜率38.8%，平局概率26.4%，捷克胜率34.8%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "South Korea",
+          "player": "Son Heung-min",
+          "reason": "亚洲球王"
+        },
+        {
+          "team": "Czechia",
+          "player": "Tomáš Souček",
+          "reason": "中场核心"
+        }
+      ],
+      "mcDraw": 26.4,
+      "homeElo": 1748,
+      "awayElo": 1721,
+      "homeLambda": 1.349,
+      "awayLambda": 1.251,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537329,
+      "teamA": {
+        "name": "Czechia",
+        "cnName": "捷克",
+        "winProb": 55,
+        "mcWinProb": 55.0
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "South Africa",
+        "cnName": "南非",
+        "winProb": 21,
+        "mcWinProb": 21.4
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "捷克ELO评分1721，远高于南非的1514",
+        "捷克整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，捷克胜率55.0%，平局概率23.5%，南非胜率21.4%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Czechia",
+          "player": "Tomáš Souček",
+          "reason": "中场核心"
+        },
+        {
+          "team": "South Africa",
+          "player": "Percy Tau",
+          "reason": "进攻尖刀"
+        }
+      ],
+      "mcDraw": 23.5,
+      "homeElo": 1721,
+      "awayElo": 1514,
+      "homeLambda": 1.673,
+      "awayLambda": 0.927,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537330,
+      "teamA": {
+        "name": "Mexico",
+        "cnName": "墨西哥",
+        "winProb": 52,
+        "mcWinProb": 51.8
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "South Korea",
+        "cnName": "韩国",
+        "winProb": 24,
+        "mcWinProb": 24.1
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "墨西哥实力占优，ELO领先127分",
+        "墨西哥整体实力占优",
+        "墨西哥作为东道主，拥有额外士气加成"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，墨西哥胜率51.8%，平局概率24.0%，韩国胜率24.1%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Mexico",
+          "player": "Santiago Giménez",
+          "reason": "锋线希望"
+        },
+        {
+          "team": "South Korea",
+          "player": "Son Heung-min",
+          "reason": "亚洲球王"
+        }
+      ],
+      "mcDraw": 24.0,
+      "homeElo": 1875,
+      "awayElo": 1748,
+      "homeLambda": 1.709,
+      "awayLambda": 1.071,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537331,
+      "teamA": {
+        "name": "Czechia",
+        "cnName": "捷克",
+        "winProb": 21,
+        "mcWinProb": 21.4
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "Mexico",
+        "cnName": "墨西哥",
+        "winProb": 55,
+        "mcWinProb": 55.0
+      },
+      "predictedScore": "1-1",
+      "confidence": "中",
+      "keyFactors": [
+        "墨西哥实力占优，ELO领先154分"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，捷克胜率21.4%，平局概率23.6%，墨西哥胜率55.0%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Czechia",
+          "player": "Tomáš Souček",
+          "reason": "中场核心"
+        },
+        {
+          "team": "Mexico",
+          "player": "Santiago Giménez",
+          "reason": "锋线希望"
+        }
+      ],
+      "mcDraw": 23.6,
+      "homeElo": 1721,
+      "awayElo": 1875,
+      "homeLambda": 1.023,
+      "awayLambda": 1.757,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537332,
+      "teamA": {
+        "name": "South Africa",
+        "cnName": "南非",
+        "winProb": 19,
+        "mcWinProb": 19.4
+      },
+      "draw": 23,
+      "teamB": {
+        "name": "South Korea",
+        "cnName": "韩国",
+        "winProb": 58,
+        "mcWinProb": 57.5
+      },
+      "predictedScore": "0-1",
+      "confidence": "中",
+      "keyFactors": [
+        "韩国ELO评分1748，远高于南非的1514"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，南非胜率19.4%，平局概率23.1%，韩国胜率57.5%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "South Africa",
+          "player": "Percy Tau",
+          "reason": "进攻尖刀"
+        },
+        {
+          "team": "South Korea",
+          "player": "Son Heung-min",
+          "reason": "亚洲球王"
+        }
+      ],
+      "mcDraw": 23.1,
+      "homeElo": 1514,
+      "awayElo": 1748,
+      "homeLambda": 0.879,
+      "awayLambda": 1.721,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537333,
+      "teamA": {
+        "name": "Canada",
+        "cnName": "加拿大",
+        "winProb": 56,
+        "mcWinProb": 55.7
+      },
+      "draw": 23,
+      "teamB": {
+        "name": "Bosnia-Herzegovina",
+        "cnName": "波黑",
+        "winProb": 21,
+        "mcWinProb": 21.1
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "加拿大实力占优，ELO领先169分",
+        "加拿大整体实力占优",
+        "加拿大作为东道主，拥有额外士气加成"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，加拿大胜率55.7%，平局概率23.2%，波黑胜率21.1%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Canada",
+          "player": "Alphonso Davies",
+          "reason": "速度之王"
+        },
+        {
+          "team": "Bosnia",
+          "player": "Edin Džeko",
+          "reason": "传奇射手"
+        }
+      ],
+      "mcDraw": 23.2,
+      "homeElo": 1784,
+      "awayElo": 1615,
+      "homeLambda": 1.784,
+      "awayLambda": 0.996,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537334,
+      "teamA": {
+        "name": "Qatar",
+        "cnName": "卡塔尔",
+        "winProb": 5,
+        "mcWinProb": 5.4
+      },
+      "draw": 16,
+      "teamB": {
+        "name": "Switzerland",
+        "cnName": "瑞士",
+        "winProb": 79,
+        "mcWinProb": 78.7
+      },
+      "predictedScore": "0-2",
+      "confidence": "高",
+      "keyFactors": [
+        "瑞士ELO评分1904，远高于卡塔尔的1406",
+        "瑞士进攻火力强劲，预期进球2.20",
+        "卡塔尔进攻乏力，预期进球仅0.40"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，卡塔尔胜率5.4%，平局概率15.9%，瑞士胜率78.7%。最可能比分为0-2。",
+      "playersToWatch": [
+        {
+          "team": "Qatar",
+          "player": "Akram Afif",
+          "reason": "进攻核心"
+        },
+        {
+          "team": "Switzerland",
+          "player": "Granit Xhaka",
+          "reason": "中场指挥官"
+        }
+      ],
+      "mcDraw": 15.9,
+      "homeElo": 1406,
+      "awayElo": 1904,
+      "homeLambda": 0.404,
+      "awayLambda": 2.196,
+      "mostLikelyScore": "0-2"
+    },
+    {
+      "matchId": 537335,
+      "teamA": {
+        "name": "Switzerland",
+        "cnName": "瑞士",
+        "winProb": 62,
+        "mcWinProb": 62.3
+      },
+      "draw": 23,
+      "teamB": {
+        "name": "Bosnia-Herzegovina",
+        "cnName": "波黑",
+        "winProb": 15,
+        "mcWinProb": 15.2
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "瑞士ELO评分1904，远高于波黑的1615",
+        "瑞士整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，瑞士胜率62.3%，平局概率22.5%，波黑胜率15.2%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Switzerland",
+          "player": "Granit Xhaka",
+          "reason": "中场指挥官"
+        },
+        {
+          "team": "Bosnia",
+          "player": "Edin Džeko",
+          "reason": "传奇射手"
+        }
+      ],
+      "mcDraw": 22.5,
+      "homeElo": 1904,
+      "awayElo": 1615,
+      "homeLambda": 1.82,
+      "awayLambda": 0.78,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537336,
+      "teamA": {
+        "name": "Canada",
+        "cnName": "加拿大",
+        "winProb": 73,
+        "mcWinProb": 73.1
+      },
+      "draw": 17,
+      "teamB": {
+        "name": "Qatar",
+        "cnName": "卡塔尔",
+        "winProb": 10,
+        "mcWinProb": 9.5
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "加拿大ELO评分1784，远高于卡塔尔的1406",
+        "加拿大进攻火力强劲，预期进球2.16",
+        "加拿大整体实力占优",
+        "加拿大作为东道主，拥有额外士气加成"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，加拿大胜率73.1%，平局概率17.4%，卡塔尔胜率9.5%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "Canada",
+          "player": "Alphonso Davies",
+          "reason": "速度之王"
+        },
+        {
+          "team": "Qatar",
+          "player": "Akram Afif",
+          "reason": "进攻核心"
+        }
+      ],
+      "mcDraw": 17.4,
+      "homeElo": 1784,
+      "awayElo": 1406,
+      "homeLambda": 2.16,
+      "awayLambda": 0.62,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537337,
+      "teamA": {
+        "name": "Switzerland",
+        "cnName": "瑞士",
+        "winProb": 44,
+        "mcWinProb": 43.5
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "Canada",
+        "cnName": "加拿大",
+        "winProb": 32,
+        "mcWinProb": 31.8
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "瑞士实力占优，ELO领先120分",
+        "瑞士整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，瑞士胜率43.5%，平局概率24.8%，加拿大胜率31.8%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Switzerland",
+          "player": "Granit Xhaka",
+          "reason": "中场指挥官"
+        },
+        {
+          "team": "Canada",
+          "player": "Alphonso Davies",
+          "reason": "速度之王"
+        }
+      ],
+      "mcDraw": 24.8,
+      "homeElo": 1904,
+      "awayElo": 1784,
+      "homeLambda": 1.516,
+      "awayLambda": 1.264,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537338,
+      "teamA": {
+        "name": "Bosnia-Herzegovina",
+        "cnName": "波黑",
+        "winProb": 55,
+        "mcWinProb": 54.9
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "Qatar",
+        "cnName": "卡塔尔",
+        "winProb": 21,
+        "mcWinProb": 21.1
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "波黑ELO评分1615，远高于卡塔尔的1406",
+        "波黑整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，波黑胜率54.9%，平局概率24.0%，卡塔尔胜率21.1%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Bosnia",
+          "player": "Edin Džeko",
+          "reason": "传奇射手"
+        },
+        {
+          "team": "Qatar",
+          "player": "Akram Afif",
+          "reason": "进攻核心"
+        }
+      ],
+      "mcDraw": 24.0,
+      "homeElo": 1615,
+      "awayElo": 1406,
+      "homeLambda": 1.676,
+      "awayLambda": 0.924,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537339,
+      "teamA": {
+        "name": "Brazil",
+        "cnName": "巴西",
+        "winProb": 51,
+        "mcWinProb": 50.7
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "Morocco",
+        "cnName": "摩洛哥",
+        "winProb": 24,
+        "mcWinProb": 24.3
+      },
+      "predictedScore": "1-1",
+      "confidence": "中",
+      "keyFactors": [
+        "巴西实力占优，ELO领先158分",
+        "巴西整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，巴西胜率50.7%，平局概率25.0%，摩洛哥胜率24.3%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Brazil",
+          "player": "Vinícius Júnior",
+          "reason": "锋线核心"
+        },
+        {
+          "team": "Morocco",
+          "player": "Achraf Hakimi",
+          "reason": "防线支柱"
+        }
+      ],
+      "mcDraw": 25.0,
+      "homeElo": 1982,
+      "awayElo": 1824,
+      "homeLambda": 1.584,
+      "awayLambda": 1.016,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537340,
+      "teamA": {
+        "name": "Haiti",
+        "cnName": "海地",
+        "winProb": 85,
+        "mcWinProb": 88.7
+      },
+      "draw": 10,
+      "teamB": {
+        "name": "Scotland",
+        "cnName": "苏格兰",
+        "winProb": 5,
+        "mcWinProb": 1.3
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "海地ELO评分1531，远高于苏格兰的852",
+        "海地进攻火力强劲，预期进球2.52",
+        "苏格兰进攻乏力，预期进球仅0.15",
+        "海地整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，海地胜率88.7%，平局概率10.1%，苏格兰胜率1.3%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "Haiti",
+          "player": "Frantzdy Pierrot",
+          "reason": "进攻核心"
+        },
+        {
+          "team": "Scotland",
+          "player": "Andy Robertson",
+          "reason": "边路永动机"
+        }
+      ],
+      "mcDraw": 10.1,
+      "homeElo": 1531,
+      "awayElo": 852,
+      "homeLambda": 2.522,
+      "awayLambda": 0.15,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537342,
+      "teamA": {
+        "name": "Scotland",
+        "cnName": "苏格兰",
+        "winProb": 1,
+        "mcWinProb": 0.8
+      },
+      "draw": 6,
+      "teamB": {
+        "name": "Morocco",
+        "cnName": "摩洛哥",
+        "winProb": 93,
+        "mcWinProb": 92.7
+      },
+      "predictedScore": "0-3",
+      "confidence": "高",
+      "keyFactors": [
+        "摩洛哥ELO评分1824，远高于苏格兰的852",
+        "摩洛哥进攻火力强劲，预期进球3.05",
+        "苏格兰进攻乏力，预期进球仅0.15"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，苏格兰胜率0.8%，平局概率6.4%，摩洛哥胜率92.7%。最可能比分为0-3。",
+      "playersToWatch": [
+        {
+          "team": "Scotland",
+          "player": "Andy Robertson",
+          "reason": "边路永动机"
+        },
+        {
+          "team": "Morocco",
+          "player": "Achraf Hakimi",
+          "reason": "防线支柱"
+        }
+      ],
+      "mcDraw": 6.4,
+      "homeElo": 852,
+      "awayElo": 1824,
+      "homeLambda": 0.15,
+      "awayLambda": 3.05,
+      "mostLikelyScore": "0-3"
+    },
+    {
+      "matchId": 537341,
+      "teamA": {
+        "name": "Brazil",
+        "cnName": "巴西",
+        "winProb": 76,
+        "mcWinProb": 75.8
+      },
+      "draw": 17,
+      "teamB": {
+        "name": "Haiti",
+        "cnName": "海地",
+        "winProb": 7,
+        "mcWinProb": 7.2
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "巴西ELO评分1982，远高于海地的1531",
+        "巴西进攻火力强劲，预期进球2.11",
+        "海地进攻乏力，预期进球仅0.49",
+        "巴西整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，巴西胜率75.8%，平局概率17.0%，海地胜率7.2%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "Brazil",
+          "player": "Vinícius Júnior",
+          "reason": "锋线核心"
+        },
+        {
+          "team": "Haiti",
+          "player": "Frantzdy Pierrot",
+          "reason": "进攻核心"
+        }
+      ],
+      "mcDraw": 17.0,
+      "homeElo": 1982,
+      "awayElo": 1531,
+      "homeLambda": 2.112,
+      "awayLambda": 0.488,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537343,
+      "teamA": {
+        "name": "Scotland",
+        "cnName": "苏格兰",
+        "winProb": 0,
+        "mcWinProb": 0.5
+      },
+      "draw": 5,
+      "teamB": {
+        "name": "Brazil",
+        "cnName": "巴西",
+        "winProb": 95,
+        "mcWinProb": 94.7
+      },
+      "predictedScore": "0-3",
+      "confidence": "高",
+      "keyFactors": [
+        "巴西ELO评分1982，远高于苏格兰的852",
+        "巴西进攻火力强劲，预期进球3.33",
+        "苏格兰进攻乏力，预期进球仅0.15"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，苏格兰胜率0.5%，平局概率4.8%，巴西胜率94.7%。最可能比分为0-3。",
+      "playersToWatch": [
+        {
+          "team": "Scotland",
+          "player": "Andy Robertson",
+          "reason": "边路永动机"
+        },
+        {
+          "team": "Brazil",
+          "player": "Vinícius Júnior",
+          "reason": "锋线核心"
+        }
+      ],
+      "mcDraw": 4.8,
+      "homeElo": 852,
+      "awayElo": 1982,
+      "homeLambda": 0.15,
+      "awayLambda": 3.334,
+      "mostLikelyScore": "0-3"
+    },
+    {
+      "matchId": 537344,
+      "teamA": {
+        "name": "Morocco",
+        "cnName": "摩洛哥",
+        "winProb": 63,
+        "mcWinProb": 63.2
+      },
+      "draw": 21,
+      "teamB": {
+        "name": "Haiti",
+        "cnName": "海地",
+        "winProb": 16,
+        "mcWinProb": 15.5
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "摩洛哥ELO评分1824，远高于海地的1531",
+        "摩洛哥整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，摩洛哥胜率63.2%，平局概率21.3%，海地胜率15.5%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Morocco",
+          "player": "Achraf Hakimi",
+          "reason": "防线支柱"
+        },
+        {
+          "team": "Haiti",
+          "player": "Frantzdy Pierrot",
+          "reason": "进攻核心"
+        }
+      ],
+      "mcDraw": 21.3,
+      "homeElo": 1824,
+      "awayElo": 1531,
+      "homeLambda": 1.827,
+      "awayLambda": 0.773,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537345,
+      "teamA": {
+        "name": "United States",
+        "cnName": "美国",
+        "winProb": 31,
+        "mcWinProb": 30.6
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "Paraguay",
+        "cnName": "巴拉圭",
+        "winProb": 45,
+        "mcWinProb": 44.7
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "巴拉圭实力占优，ELO领先130分",
+        "美国作为东道主，拥有额外士气加成"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，美国胜率30.6%，平局概率24.6%，巴拉圭胜率44.7%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "USA",
+          "player": "Christian Pulisic",
+          "reason": "美国队长"
+        },
+        {
+          "team": "Paraguay",
+          "player": "Miguel Almirón",
+          "reason": "进攻主将"
+        }
+      ],
+      "mcDraw": 24.6,
+      "homeElo": 1714,
+      "awayElo": 1844,
+      "homeLambda": 1.246,
+      "awayLambda": 1.534,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537346,
+      "teamA": {
+        "name": "Australia",
+        "cnName": "澳大利亚",
+        "winProb": 26,
+        "mcWinProb": 26.4
+      },
+      "draw": 27,
+      "teamB": {
+        "name": "Turkey",
+        "cnName": "土耳其",
+        "winProb": 47,
+        "mcWinProb": 47.2
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "土耳其实力占优，ELO领先132分"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，澳大利亚胜率26.4%，平局概率26.4%，土耳其胜率47.2%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Australia",
+          "player": "Harry Souttar",
+          "reason": "铁卫"
+        },
+        {
+          "team": "Turkey",
+          "player": "Arda Güler",
+          "reason": "新星天才"
+        }
+      ],
+      "mcDraw": 26.4,
+      "homeElo": 1795,
+      "awayElo": 1927,
+      "homeLambda": 1.062,
+      "awayLambda": 1.538,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537348,
+      "teamA": {
+        "name": "United States",
+        "cnName": "美国",
+        "winProb": 36,
+        "mcWinProb": 36.0
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "Australia",
+        "cnName": "澳大利亚",
+        "winProb": 39,
+        "mcWinProb": 39.2
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "澳大利亚实力占优，ELO领先81分",
+        "美国作为东道主，拥有额外士气加成"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，美国胜率36.0%，平局概率24.8%，澳大利亚胜率39.2%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "USA",
+          "player": "Christian Pulisic",
+          "reason": "美国队长"
+        },
+        {
+          "team": "Australia",
+          "player": "Harry Souttar",
+          "reason": "铁卫"
+        }
+      ],
+      "mcDraw": 24.8,
+      "homeElo": 1714,
+      "awayElo": 1795,
+      "homeLambda": 1.334,
+      "awayLambda": 1.446,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537347,
+      "teamA": {
+        "name": "Turkey",
+        "cnName": "土耳其",
+        "winProb": 44,
+        "mcWinProb": 43.5
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Paraguay",
+        "cnName": "巴拉圭",
+        "winProb": 30,
+        "mcWinProb": 30.2
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "土耳其实力占优，ELO领先83分",
+        "土耳其整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，土耳其胜率43.5%，平局概率26.4%，巴拉圭胜率30.2%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Turkey",
+          "player": "Arda Güler",
+          "reason": "新星天才"
+        },
+        {
+          "team": "Paraguay",
+          "player": "Miguel Almirón",
+          "reason": "进攻主将"
+        }
+      ],
+      "mcDraw": 26.4,
+      "homeElo": 1927,
+      "awayElo": 1844,
+      "homeLambda": 1.449,
+      "awayLambda": 1.151,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537349,
+      "teamA": {
+        "name": "Turkey",
+        "cnName": "土耳其",
+        "winProb": 50,
+        "mcWinProb": 50.1
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "United States",
+        "cnName": "美国",
+        "winProb": 25,
+        "mcWinProb": 25.2
+      },
+      "predictedScore": "1-1",
+      "confidence": "中",
+      "keyFactors": [
+        "土耳其ELO评分1927，远高于美国的1714",
+        "土耳其整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，土耳其胜率50.1%，平局概率24.7%，美国胜率25.2%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Turkey",
+          "player": "Arda Güler",
+          "reason": "新星天才"
+        },
+        {
+          "team": "USA",
+          "player": "Christian Pulisic",
+          "reason": "美国队长"
+        }
+      ],
+      "mcDraw": 24.7,
+      "homeElo": 1927,
+      "awayElo": 1714,
+      "homeLambda": 1.683,
+      "awayLambda": 1.097,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537350,
+      "teamA": {
+        "name": "Paraguay",
+        "cnName": "巴拉圭",
+        "winProb": 42,
+        "mcWinProb": 41.7
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Australia",
+        "cnName": "澳大利亚",
+        "winProb": 32,
+        "mcWinProb": 31.7
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料",
+        "巴拉圭整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，巴拉圭胜率41.7%，平局概率26.6%，澳大利亚胜率31.7%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Paraguay",
+          "player": "Miguel Almirón",
+          "reason": "进攻主将"
+        },
+        {
+          "team": "Australia",
+          "player": "Harry Souttar",
+          "reason": "铁卫"
+        }
+      ],
+      "mcDraw": 26.6,
+      "homeElo": 1844,
+      "awayElo": 1795,
+      "homeLambda": 1.388,
+      "awayLambda": 1.212,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537351,
+      "teamA": {
+        "name": "Germany",
+        "cnName": "德国",
+        "winProb": 76,
+        "mcWinProb": 75.9
+      },
+      "draw": 17,
+      "teamB": {
+        "name": "Curaçao",
+        "cnName": "Curaçao",
+        "winProb": 7,
+        "mcWinProb": 7.2
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "德国ELO评分1914，远高于Curaçao的1456",
+        "德国进攻火力强劲，预期进球2.12",
+        "Curaçao进攻乏力，预期进球仅0.48",
+        "德国整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，德国胜率75.9%，平局概率16.8%，Curaçao胜率7.2%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "Germany",
+          "player": "Jamal Musiala",
+          "reason": "进攻天才"
+        },
+        {
+          "team": "Curaçao",
+          "player": "Leandro Bacuna",
+          "reason": "中场核心"
+        }
+      ],
+      "mcDraw": 16.8,
+      "homeElo": 1914,
+      "awayElo": 1456,
+      "homeLambda": 2.124,
+      "awayLambda": 0.476,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537352,
+      "teamA": {
+        "name": "Ivory Coast",
+        "cnName": "科特迪瓦",
+        "winProb": 18,
+        "mcWinProb": 17.8
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "Ecuador",
+        "cnName": "厄瓜多尔",
+        "winProb": 58,
+        "mcWinProb": 57.8
+      },
+      "predictedScore": "0-1",
+      "confidence": "中",
+      "keyFactors": [
+        "厄瓜多尔ELO评分1937，远高于科特迪瓦的1695"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，科特迪瓦胜率17.8%，平局概率24.4%，厄瓜多尔胜率57.8%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Ivory Coast",
+          "player": "Sébastien Haller",
+          "reason": "锋线支点"
+        },
+        {
+          "team": "Ecuador",
+          "player": "Moisés Caicedo",
+          "reason": "中场核心"
+        }
+      ],
+      "mcDraw": 24.4,
+      "homeElo": 1695,
+      "awayElo": 1937,
+      "homeLambda": 0.864,
+      "awayLambda": 1.736,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537353,
+      "teamA": {
+        "name": "Germany",
+        "cnName": "德国",
+        "winProb": 57,
+        "mcWinProb": 57.4
+      },
+      "draw": 23,
+      "teamB": {
+        "name": "Ivory Coast",
+        "cnName": "科特迪瓦",
+        "winProb": 20,
+        "mcWinProb": 19.9
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "德国ELO评分1914，远高于科特迪瓦的1695",
+        "德国整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，德国胜率57.4%，平局概率22.7%，科特迪瓦胜率19.9%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Germany",
+          "player": "Jamal Musiala",
+          "reason": "进攻天才"
+        },
+        {
+          "team": "Ivory Coast",
+          "player": "Sébastien Haller",
+          "reason": "锋线支点"
+        }
+      ],
+      "mcDraw": 22.7,
+      "homeElo": 1914,
+      "awayElo": 1695,
+      "homeLambda": 1.694,
+      "awayLambda": 0.906,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537354,
+      "teamA": {
+        "name": "Ecuador",
+        "cnName": "厄瓜多尔",
+        "winProb": 78,
+        "mcWinProb": 77.5
+      },
+      "draw": 16,
+      "teamB": {
+        "name": "Curaçao",
+        "cnName": "Curaçao",
+        "winProb": 6,
+        "mcWinProb": 6.3
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "厄瓜多尔ELO评分1937，远高于Curaçao的1456",
+        "厄瓜多尔进攻火力强劲，预期进球2.17",
+        "Curaçao进攻乏力，预期进球仅0.43",
+        "厄瓜多尔整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，厄瓜多尔胜率77.5%，平局概率16.2%，Curaçao胜率6.3%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "Ecuador",
+          "player": "Moisés Caicedo",
+          "reason": "中场核心"
+        },
+        {
+          "team": "Curaçao",
+          "player": "Leandro Bacuna",
+          "reason": "中场核心"
+        }
+      ],
+      "mcDraw": 16.2,
+      "homeElo": 1937,
+      "awayElo": 1456,
+      "homeLambda": 2.166,
+      "awayLambda": 0.434,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537356,
+      "teamA": {
+        "name": "Curaçao",
+        "cnName": "Curaçao",
+        "winProb": 18,
+        "mcWinProb": 18.4
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "Ivory Coast",
+        "cnName": "科特迪瓦",
+        "winProb": 58,
+        "mcWinProb": 58.3
+      },
+      "predictedScore": "0-1",
+      "confidence": "中",
+      "keyFactors": [
+        "科特迪瓦ELO评分1695，远高于Curaçao的1456"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，Curaçao胜率18.4%，平局概率23.4%，科特迪瓦胜率58.3%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Curaçao",
+          "player": "Leandro Bacuna",
+          "reason": "中场核心"
+        },
+        {
+          "team": "Ivory Coast",
+          "player": "Sébastien Haller",
+          "reason": "锋线支点"
+        }
+      ],
+      "mcDraw": 23.4,
+      "homeElo": 1456,
+      "awayElo": 1695,
+      "homeLambda": 0.87,
+      "awayLambda": 1.73,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537355,
+      "teamA": {
+        "name": "Ecuador",
+        "cnName": "厄瓜多尔",
+        "winProb": 39,
+        "mcWinProb": 39.1
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "Germany",
+        "cnName": "德国",
+        "winProb": 36,
+        "mcWinProb": 35.5
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料",
+        "厄瓜多尔整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，厄瓜多尔胜率39.1%，平局概率25.4%，德国胜率35.5%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Ecuador",
+          "player": "Moisés Caicedo",
+          "reason": "中场核心"
+        },
+        {
+          "team": "Germany",
+          "player": "Jamal Musiala",
+          "reason": "进攻天才"
+        }
+      ],
+      "mcDraw": 25.4,
+      "homeElo": 1937,
+      "awayElo": 1914,
+      "homeLambda": 1.341,
+      "awayLambda": 1.259,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537357,
+      "teamA": {
+        "name": "Netherlands",
+        "cnName": "荷兰",
+        "winProb": 42,
+        "mcWinProb": 41.8
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Japan",
+        "cnName": "日本",
+        "winProb": 32,
+        "mcWinProb": 31.7
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料",
+        "荷兰整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，荷兰胜率41.8%，平局概率26.5%，日本胜率31.7%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Netherlands",
+          "player": "Virgil van Dijk",
+          "reason": "后防领袖"
+        },
+        {
+          "team": "Japan",
+          "player": "Kaoru Mitoma",
+          "reason": "突破高手"
+        }
+      ],
+      "mcDraw": 26.5,
+      "homeElo": 1965,
+      "awayElo": 1907,
+      "homeLambda": 1.404,
+      "awayLambda": 1.196,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537358,
+      "teamA": {
+        "name": "Sweden",
+        "cnName": "瑞典",
+        "winProb": 44,
+        "mcWinProb": 43.8
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "Tunisia",
+        "cnName": "突尼斯",
+        "winProb": 31,
+        "mcWinProb": 30.8
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料",
+        "瑞典整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，瑞典胜率43.8%，平局概率25.4%，突尼斯胜率30.8%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Sweden",
+          "player": "Alexander Isak",
+          "reason": "锋线杀手"
+        },
+        {
+          "team": "Tunisia",
+          "player": "Ellyes Skhiri",
+          "reason": "中场支柱"
+        }
+      ],
+      "mcDraw": 25.4,
+      "homeElo": 1714,
+      "awayElo": 1643,
+      "homeLambda": 1.428,
+      "awayLambda": 1.172,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537359,
+      "teamA": {
+        "name": "Netherlands",
+        "cnName": "荷兰",
+        "winProb": 59,
+        "mcWinProb": 59.4
+      },
+      "draw": 23,
+      "teamB": {
+        "name": "Sweden",
+        "cnName": "瑞典",
+        "winProb": 18,
+        "mcWinProb": 17.8
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "荷兰ELO评分1965，远高于瑞典的1714",
+        "荷兰整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，荷兰胜率59.4%，平局概率22.8%，瑞典胜率17.8%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Netherlands",
+          "player": "Virgil van Dijk",
+          "reason": "后防领袖"
+        },
+        {
+          "team": "Sweden",
+          "player": "Alexander Isak",
+          "reason": "锋线杀手"
+        }
+      ],
+      "mcDraw": 22.8,
+      "homeElo": 1965,
+      "awayElo": 1714,
+      "homeLambda": 1.752,
+      "awayLambda": 0.848,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537360,
+      "teamA": {
+        "name": "Tunisia",
+        "cnName": "突尼斯",
+        "winProb": 17,
+        "mcWinProb": 17.0
+      },
+      "draw": 22,
+      "teamB": {
+        "name": "Japan",
+        "cnName": "日本",
+        "winProb": 61,
+        "mcWinProb": 61.1
+      },
+      "predictedScore": "0-1",
+      "confidence": "中",
+      "keyFactors": [
+        "日本ELO评分1907，远高于突尼斯的1643"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，突尼斯胜率17.0%，平局概率21.9%，日本胜率61.1%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Tunisia",
+          "player": "Ellyes Skhiri",
+          "reason": "中场支柱"
+        },
+        {
+          "team": "Japan",
+          "player": "Kaoru Mitoma",
+          "reason": "突破高手"
+        }
+      ],
+      "mcDraw": 21.9,
+      "homeElo": 1643,
+      "awayElo": 1907,
+      "homeLambda": 0.825,
+      "awayLambda": 1.775,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537362,
+      "teamA": {
+        "name": "Japan",
+        "cnName": "日本",
+        "winProb": 54,
+        "mcWinProb": 54.4
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "Sweden",
+        "cnName": "瑞典",
+        "winProb": 21,
+        "mcWinProb": 21.1
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "日本实力占优，ELO领先193分",
+        "日本整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，日本胜率54.4%，平局概率24.4%，瑞典胜率21.1%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Japan",
+          "player": "Kaoru Mitoma",
+          "reason": "突破高手"
+        },
+        {
+          "team": "Sweden",
+          "player": "Alexander Isak",
+          "reason": "锋线杀手"
+        }
+      ],
+      "mcDraw": 24.4,
+      "homeElo": 1907,
+      "awayElo": 1714,
+      "homeLambda": 1.647,
+      "awayLambda": 0.953,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537361,
+      "teamA": {
+        "name": "Tunisia",
+        "cnName": "突尼斯",
+        "winProb": 14,
+        "mcWinProb": 14.1
+      },
+      "draw": 22,
+      "teamB": {
+        "name": "Netherlands",
+        "cnName": "荷兰",
+        "winProb": 64,
+        "mcWinProb": 64.1
+      },
+      "predictedScore": "0-1",
+      "confidence": "高",
+      "keyFactors": [
+        "荷兰ELO评分1965，远高于突尼斯的1643"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，突尼斯胜率14.1%，平局概率21.8%，荷兰胜率64.1%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Tunisia",
+          "player": "Ellyes Skhiri",
+          "reason": "中场支柱"
+        },
+        {
+          "team": "Netherlands",
+          "player": "Virgil van Dijk",
+          "reason": "后防领袖"
+        }
+      ],
+      "mcDraw": 21.8,
+      "homeElo": 1643,
+      "awayElo": 1965,
+      "homeLambda": 0.72,
+      "awayLambda": 1.88,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537363,
+      "teamA": {
+        "name": "Belgium",
+        "cnName": "比利时",
+        "winProb": 53,
+        "mcWinProb": 52.9
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "Egypt",
+        "cnName": "埃及",
+        "winProb": 23,
+        "mcWinProb": 22.7
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "比利时实力占优，ELO领先174分",
+        "比利时整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，比利时胜率52.9%，平局概率24.4%，埃及胜率22.7%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Belgium",
+          "player": "Kevin De Bruyne",
+          "reason": "传球大师"
+        },
+        {
+          "team": "Egypt",
+          "player": "Mohamed Salah",
+          "reason": "埃及法老"
+        }
+      ],
+      "mcDraw": 24.4,
+      "homeElo": 1869,
+      "awayElo": 1695,
+      "homeLambda": 1.613,
+      "awayLambda": 0.987,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537364,
+      "teamA": {
+        "name": "Iran",
+        "cnName": "伊朗",
+        "winProb": 50,
+        "mcWinProb": 50.4
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "New Zealand",
+        "cnName": "新西兰",
+        "winProb": 24,
+        "mcWinProb": 24.3
+      },
+      "predictedScore": "1-1",
+      "confidence": "中",
+      "keyFactors": [
+        "伊朗实力占优，ELO领先160分",
+        "伊朗整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，伊朗胜率50.4%，平局概率25.3%，新西兰胜率24.3%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Iran",
+          "player": "Mehdi Taremi",
+          "reason": "锋线射手"
+        },
+        {
+          "team": "New Zealand",
+          "player": "Chris Wood",
+          "reason": "锋线支点"
+        }
+      ],
+      "mcDraw": 25.3,
+      "homeElo": 1745,
+      "awayElo": 1585,
+      "homeLambda": 1.588,
+      "awayLambda": 1.012,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537365,
+      "teamA": {
+        "name": "Belgium",
+        "cnName": "比利时",
+        "winProb": 47,
+        "mcWinProb": 47.0
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Iran",
+        "cnName": "伊朗",
+        "winProb": 27,
+        "mcWinProb": 27.3
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "比利时实力占优，ELO领先124分",
+        "比利时整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，比利时胜率47.0%，平局概率25.7%，伊朗胜率27.3%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Belgium",
+          "player": "Kevin De Bruyne",
+          "reason": "传球大师"
+        },
+        {
+          "team": "Iran",
+          "player": "Mehdi Taremi",
+          "reason": "锋线射手"
+        }
+      ],
+      "mcDraw": 25.7,
+      "homeElo": 1869,
+      "awayElo": 1745,
+      "homeLambda": 1.523,
+      "awayLambda": 1.077,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537366,
+      "teamA": {
+        "name": "New Zealand",
+        "cnName": "新西兰",
+        "winProb": 28,
+        "mcWinProb": 28.2
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Egypt",
+        "cnName": "埃及",
+        "winProb": 46,
+        "mcWinProb": 46.2
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "埃及实力占优，ELO领先110分"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，新西兰胜率28.2%，平局概率25.5%，埃及胜率46.2%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "New Zealand",
+          "player": "Chris Wood",
+          "reason": "锋线支点"
+        },
+        {
+          "team": "Egypt",
+          "player": "Mohamed Salah",
+          "reason": "埃及法老"
+        }
+      ],
+      "mcDraw": 25.5,
+      "homeElo": 1585,
+      "awayElo": 1695,
+      "homeLambda": 1.102,
+      "awayLambda": 1.498,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537368,
+      "teamA": {
+        "name": "Egypt",
+        "cnName": "埃及",
+        "winProb": 33,
+        "mcWinProb": 32.9
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Iran",
+        "cnName": "伊朗",
+        "winProb": 41,
+        "mcWinProb": 40.8
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，埃及胜率32.9%，平局概率26.2%，伊朗胜率40.8%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Egypt",
+          "player": "Mohamed Salah",
+          "reason": "埃及法老"
+        },
+        {
+          "team": "Iran",
+          "player": "Mehdi Taremi",
+          "reason": "锋线射手"
+        }
+      ],
+      "mcDraw": 26.2,
+      "homeElo": 1695,
+      "awayElo": 1745,
+      "homeLambda": 1.21,
+      "awayLambda": 1.39,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537367,
+      "teamA": {
+        "name": "New Zealand",
+        "cnName": "新西兰",
+        "winProb": 16,
+        "mcWinProb": 16.2
+      },
+      "draw": 23,
+      "teamB": {
+        "name": "Belgium",
+        "cnName": "比利时",
+        "winProb": 61,
+        "mcWinProb": 61.4
+      },
+      "predictedScore": "0-1",
+      "confidence": "中",
+      "keyFactors": [
+        "比利时ELO评分1869，远高于新西兰的1585"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，新西兰胜率16.2%，平局概率22.4%，比利时胜率61.4%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "New Zealand",
+          "player": "Chris Wood",
+          "reason": "锋线支点"
+        },
+        {
+          "team": "Belgium",
+          "player": "Kevin De Bruyne",
+          "reason": "传球大师"
+        }
+      ],
+      "mcDraw": 22.4,
+      "homeElo": 1585,
+      "awayElo": 1869,
+      "homeLambda": 0.789,
+      "awayLambda": 1.811,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537369,
+      "teamA": {
+        "name": "Spain",
+        "cnName": "西班牙",
+        "winProb": 85,
+        "mcWinProb": 86.0
+      },
+      "draw": 10,
+      "teamB": {
+        "name": "Cape Verde Islands",
+        "cnName": "佛得角",
+        "winProb": 5,
+        "mcWinProb": 2.3
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "西班牙ELO评分2163，远高于佛得角的1564",
+        "西班牙进攻火力强劲，预期进球2.38",
+        "佛得角进攻乏力，预期进球仅0.22",
+        "西班牙整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，西班牙胜率86.0%，平局概率11.7%，佛得角胜率2.3%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "Spain",
+          "player": "Lamine Yamal",
+          "reason": "天才少年"
+        },
+        {
+          "team": "Cape Verde",
+          "player": "Ryan Mendes",
+          "reason": "球队领袖"
+        }
+      ],
+      "mcDraw": 11.7,
+      "homeElo": 2163,
+      "awayElo": 1564,
+      "homeLambda": 2.378,
+      "awayLambda": 0.222,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537370,
+      "teamA": {
+        "name": "Saudi Arabia",
+        "cnName": "沙特阿拉伯",
+        "winProb": 14,
+        "mcWinProb": 13.8
+      },
+      "draw": 22,
+      "teamB": {
+        "name": "Uruguay",
+        "cnName": "乌拉圭",
+        "winProb": 64,
+        "mcWinProb": 64.3
+      },
+      "predictedScore": "0-1",
+      "confidence": "高",
+      "keyFactors": [
+        "乌拉圭ELO评分1881，远高于沙特阿拉伯的1574"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，沙特阿拉伯胜率13.8%，平局概率21.9%，乌拉圭胜率64.3%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Saudi Arabia",
+          "player": "Salem Al-Dawsari",
+          "reason": "沙特之星"
+        },
+        {
+          "team": "Uruguay",
+          "player": "Federico Valverde",
+          "reason": "攻防核心"
+        }
+      ],
+      "mcDraw": 21.9,
+      "homeElo": 1574,
+      "awayElo": 1881,
+      "homeLambda": 0.747,
+      "awayLambda": 1.853,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537371,
+      "teamA": {
+        "name": "Spain",
+        "cnName": "西班牙",
+        "winProb": 85,
+        "mcWinProb": 85.3
+      },
+      "draw": 10,
+      "teamB": {
+        "name": "Saudi Arabia",
+        "cnName": "沙特阿拉伯",
+        "winProb": 5,
+        "mcWinProb": 2.5
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "西班牙ELO评分2163，远高于沙特阿拉伯的1574",
+        "西班牙进攻火力强劲，预期进球2.36",
+        "沙特阿拉伯进攻乏力，预期进球仅0.24",
+        "西班牙整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，西班牙胜率85.3%，平局概率12.2%，沙特阿拉伯胜率2.5%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "Spain",
+          "player": "Lamine Yamal",
+          "reason": "天才少年"
+        },
+        {
+          "team": "Saudi Arabia",
+          "player": "Salem Al-Dawsari",
+          "reason": "沙特之星"
+        }
+      ],
+      "mcDraw": 12.2,
+      "homeElo": 2163,
+      "awayElo": 1574,
+      "homeLambda": 2.36,
+      "awayLambda": 0.24,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537372,
+      "teamA": {
+        "name": "Uruguay",
+        "cnName": "乌拉圭",
+        "winProb": 64,
+        "mcWinProb": 64.2
+      },
+      "draw": 22,
+      "teamB": {
+        "name": "Cape Verde Islands",
+        "cnName": "佛得角",
+        "winProb": 14,
+        "mcWinProb": 14.0
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "乌拉圭ELO评分1881，远高于佛得角的1564",
+        "乌拉圭整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，乌拉圭胜率64.2%，平局概率21.9%，佛得角胜率14.0%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "Uruguay",
+          "player": "Federico Valverde",
+          "reason": "攻防核心"
+        },
+        {
+          "team": "Cape Verde",
+          "player": "Ryan Mendes",
+          "reason": "球队领袖"
+        }
+      ],
+      "mcDraw": 21.9,
+      "homeElo": 1881,
+      "awayElo": 1564,
+      "homeLambda": 1.871,
+      "awayLambda": 0.729,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537374,
+      "teamA": {
+        "name": "Cape Verde Islands",
+        "cnName": "佛得角",
+        "winProb": 35,
+        "mcWinProb": 35.1
+      },
+      "draw": 27,
+      "teamB": {
+        "name": "Saudi Arabia",
+        "cnName": "沙特阿拉伯",
+        "winProb": 38,
+        "mcWinProb": 38.3
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，佛得角胜率35.1%，平局概率26.6%，沙特阿拉伯胜率38.3%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Cape Verde",
+          "player": "Ryan Mendes",
+          "reason": "球队领袖"
+        },
+        {
+          "team": "Saudi Arabia",
+          "player": "Salem Al-Dawsari",
+          "reason": "沙特之星"
+        }
+      ],
+      "mcDraw": 26.6,
+      "homeElo": 1564,
+      "awayElo": 1574,
+      "homeLambda": 1.282,
+      "awayLambda": 1.318,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537373,
+      "teamA": {
+        "name": "Uruguay",
+        "cnName": "乌拉圭",
+        "winProb": 16,
+        "mcWinProb": 15.8
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "Spain",
+        "cnName": "西班牙",
+        "winProb": 60,
+        "mcWinProb": 60.5
+      },
+      "predictedScore": "0-1",
+      "confidence": "中",
+      "keyFactors": [
+        "西班牙ELO评分2163，远高于乌拉圭的1881"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，乌拉圭胜率15.8%，平局概率23.7%，西班牙胜率60.5%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Uruguay",
+          "player": "Federico Valverde",
+          "reason": "攻防核心"
+        },
+        {
+          "team": "Spain",
+          "player": "Lamine Yamal",
+          "reason": "天才少年"
+        }
+      ],
+      "mcDraw": 23.7,
+      "homeElo": 1881,
+      "awayElo": 2163,
+      "homeLambda": 0.792,
+      "awayLambda": 1.808,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537391,
+      "teamA": {
+        "name": "France",
+        "cnName": "法国",
+        "winProb": 52,
+        "mcWinProb": 52.0
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Senegal",
+        "cnName": "塞内加尔",
+        "winProb": 22,
+        "mcWinProb": 22.3
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "法国实力占优，ELO领先187分",
+        "法国整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，法国胜率52.0%，平局概率25.6%，塞内加尔胜率22.3%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "reason": "超级巨星"
+        },
+        {
+          "team": "Senegal",
+          "player": "Sadio Mané",
+          "reason": "进攻领袖"
+        }
+      ],
+      "mcDraw": 25.6,
+      "homeElo": 2086,
+      "awayElo": 1899,
+      "homeLambda": 1.637,
+      "awayLambda": 0.963,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537392,
+      "teamA": {
+        "name": "Iraq",
+        "cnName": "伊拉克",
+        "winProb": 14,
+        "mcWinProb": 14.1
+      },
+      "draw": 21,
+      "teamB": {
+        "name": "Norway",
+        "cnName": "挪威",
+        "winProb": 65,
+        "mcWinProb": 64.7
+      },
+      "predictedScore": "0-1",
+      "confidence": "高",
+      "keyFactors": [
+        "挪威ELO评分1933，远高于伊拉克的1611"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，伊拉克胜率14.1%，平局概率21.2%，挪威胜率64.7%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Iraq",
+          "player": "Aymen Hussein",
+          "reason": "锋线射手"
+        },
+        {
+          "team": "Norway",
+          "player": "Erling Haaland",
+          "reason": "进球机器"
+        }
+      ],
+      "mcDraw": 21.2,
+      "homeElo": 1611,
+      "awayElo": 1933,
+      "homeLambda": 0.72,
+      "awayLambda": 1.88,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537393,
+      "teamA": {
+        "name": "France",
+        "cnName": "法国",
+        "winProb": 77,
+        "mcWinProb": 76.9
+      },
+      "draw": 16,
+      "teamB": {
+        "name": "Iraq",
+        "cnName": "伊拉克",
+        "winProb": 7,
+        "mcWinProb": 6.8
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "法国ELO评分2086，远高于伊拉克的1611",
+        "法国进攻火力强劲，预期进球2.15",
+        "伊拉克进攻乏力，预期进球仅0.45",
+        "法国整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，法国胜率76.9%，平局概率16.3%，伊拉克胜率6.8%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "reason": "超级巨星"
+        },
+        {
+          "team": "Iraq",
+          "player": "Aymen Hussein",
+          "reason": "锋线射手"
+        }
+      ],
+      "mcDraw": 16.3,
+      "homeElo": 2086,
+      "awayElo": 1611,
+      "homeLambda": 2.155,
+      "awayLambda": 0.445,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537394,
+      "teamA": {
+        "name": "Norway",
+        "cnName": "挪威",
+        "winProb": 40,
+        "mcWinProb": 39.6
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Senegal",
+        "cnName": "塞内加尔",
+        "winProb": 34,
+        "mcWinProb": 34.3
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料",
+        "挪威整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，挪威胜率39.6%，平局概率26.0%，塞内加尔胜率34.3%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Norway",
+          "player": "Erling Haaland",
+          "reason": "进球机器"
+        },
+        {
+          "team": "Senegal",
+          "player": "Sadio Mané",
+          "reason": "进攻领袖"
+        }
+      ],
+      "mcDraw": 26.0,
+      "homeElo": 1933,
+      "awayElo": 1899,
+      "homeLambda": 1.361,
+      "awayLambda": 1.239,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537395,
+      "teamA": {
+        "name": "Norway",
+        "cnName": "挪威",
+        "winProb": 25,
+        "mcWinProb": 24.6
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "France",
+        "cnName": "法国",
+        "winProb": 50,
+        "mcWinProb": 50.3
+      },
+      "predictedScore": "1-1",
+      "confidence": "中",
+      "keyFactors": [
+        "法国实力占优，ELO领先153分"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，挪威胜率24.6%，平局概率25.1%，法国胜率50.3%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Norway",
+          "player": "Erling Haaland",
+          "reason": "进球机器"
+        },
+        {
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "reason": "超级巨星"
+        }
+      ],
+      "mcDraw": 25.1,
+      "homeElo": 1933,
+      "awayElo": 2086,
+      "homeLambda": 1.025,
+      "awayLambda": 1.575,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537396,
+      "teamA": {
+        "name": "Senegal",
+        "cnName": "塞内加尔",
+        "winProb": 62,
+        "mcWinProb": 61.8
+      },
+      "draw": 22,
+      "teamB": {
+        "name": "Iraq",
+        "cnName": "伊拉克",
+        "winProb": 16,
+        "mcWinProb": 15.6
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "塞内加尔ELO评分1899，远高于伊拉克的1611",
+        "塞内加尔整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，塞内加尔胜率61.8%，平局概率22.6%，伊拉克胜率15.6%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Senegal",
+          "player": "Sadio Mané",
+          "reason": "进攻领袖"
+        },
+        {
+          "team": "Iraq",
+          "player": "Aymen Hussein",
+          "reason": "锋线射手"
+        }
+      ],
+      "mcDraw": 22.6,
+      "homeElo": 1899,
+      "awayElo": 1611,
+      "homeLambda": 1.818,
+      "awayLambda": 0.782,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537397,
+      "teamA": {
+        "name": "Argentina",
+        "cnName": "阿根廷",
+        "winProb": 68,
+        "mcWinProb": 68.3
+      },
+      "draw": 20,
+      "teamB": {
+        "name": "Algeria",
+        "cnName": "阿尔及利亚",
+        "winProb": 12,
+        "mcWinProb": 11.5
+      },
+      "predictedScore": "1-0",
+      "confidence": "高",
+      "keyFactors": [
+        "阿根廷ELO评分2114，远高于阿尔及利亚的1754",
+        "阿根廷整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，阿根廷胜率68.3%，平局概率20.2%，阿尔及利亚胜率11.5%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Argentina",
+          "player": "Lionel Messi",
+          "reason": "传奇球王"
+        },
+        {
+          "team": "Algeria",
+          "player": "Riyad Mahrez",
+          "reason": "技术核心"
+        }
+      ],
+      "mcDraw": 20.2,
+      "homeElo": 2114,
+      "awayElo": 1754,
+      "homeLambda": 1.948,
+      "awayLambda": 0.652,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537398,
+      "teamA": {
+        "name": "Austria",
+        "cnName": "奥地利",
+        "winProb": 47,
+        "mcWinProb": 47.2
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Jordan",
+        "cnName": "约旦",
+        "winProb": 27,
+        "mcWinProb": 27.1
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "奥地利实力占优，ELO领先115分",
+        "奥地利整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，奥地利胜率47.2%，平局概率25.7%，约旦胜率27.1%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Austria",
+          "player": "David Alaba",
+          "reason": "防线核心"
+        },
+        {
+          "team": "Jordan",
+          "player": "Mousa Al-Tamari",
+          "reason": "核心球员"
+        }
+      ],
+      "mcDraw": 25.7,
+      "homeElo": 1819,
+      "awayElo": 1704,
+      "homeLambda": 1.507,
+      "awayLambda": 1.093,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537399,
+      "teamA": {
+        "name": "Argentina",
+        "cnName": "阿根廷",
+        "winProb": 63,
+        "mcWinProb": 62.7
+      },
+      "draw": 22,
+      "teamB": {
+        "name": "Austria",
+        "cnName": "奥地利",
+        "winProb": 15,
+        "mcWinProb": 15.1
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "阿根廷ELO评分2114，远高于奥地利的1819",
+        "阿根廷整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，阿根廷胜率62.7%，平局概率22.2%，奥地利胜率15.1%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Argentina",
+          "player": "Lionel Messi",
+          "reason": "传奇球王"
+        },
+        {
+          "team": "Austria",
+          "player": "David Alaba",
+          "reason": "防线核心"
+        }
+      ],
+      "mcDraw": 22.2,
+      "homeElo": 2114,
+      "awayElo": 1819,
+      "homeLambda": 1.831,
+      "awayLambda": 0.769,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537400,
+      "teamA": {
+        "name": "Jordan",
+        "cnName": "约旦",
+        "winProb": 32,
+        "mcWinProb": 32.2
+      },
+      "draw": 27,
+      "teamB": {
+        "name": "Algeria",
+        "cnName": "阿尔及利亚",
+        "winProb": 41,
+        "mcWinProb": 41.0
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，约旦胜率32.2%，平局概率26.9%，阿尔及利亚胜率41.0%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Jordan",
+          "player": "Mousa Al-Tamari",
+          "reason": "核心球员"
+        },
+        {
+          "team": "Algeria",
+          "player": "Riyad Mahrez",
+          "reason": "技术核心"
+        }
+      ],
+      "mcDraw": 26.9,
+      "homeElo": 1704,
+      "awayElo": 1754,
+      "homeLambda": 1.21,
+      "awayLambda": 1.39,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537402,
+      "teamA": {
+        "name": "Algeria",
+        "cnName": "阿尔及利亚",
+        "winProb": 31,
+        "mcWinProb": 30.9
+      },
+      "draw": 28,
+      "teamB": {
+        "name": "Austria",
+        "cnName": "奥地利",
+        "winProb": 41,
+        "mcWinProb": 41.3
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，阿尔及利亚胜率30.9%，平局概率27.8%，奥地利胜率41.3%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Algeria",
+          "player": "Riyad Mahrez",
+          "reason": "技术核心"
+        },
+        {
+          "team": "Austria",
+          "player": "David Alaba",
+          "reason": "防线核心"
+        }
+      ],
+      "mcDraw": 27.8,
+      "homeElo": 1754,
+      "awayElo": 1819,
+      "homeLambda": 1.183,
+      "awayLambda": 1.417,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537401,
+      "teamA": {
+        "name": "Jordan",
+        "cnName": "约旦",
+        "winProb": 9,
+        "mcWinProb": 9.3
+      },
+      "draw": 19,
+      "teamB": {
+        "name": "Argentina",
+        "cnName": "阿根廷",
+        "winProb": 72,
+        "mcWinProb": 72.0
+      },
+      "predictedScore": "0-2",
+      "confidence": "高",
+      "keyFactors": [
+        "阿根廷ELO评分2114，远高于约旦的1704",
+        "阿根廷进攻火力强劲，预期进球2.04",
+        "约旦进攻乏力，预期进球仅0.56"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，约旦胜率9.3%，平局概率18.7%，阿根廷胜率72.0%。最可能比分为0-2。",
+      "playersToWatch": [
+        {
+          "team": "Jordan",
+          "player": "Mousa Al-Tamari",
+          "reason": "核心球员"
+        },
+        {
+          "team": "Argentina",
+          "player": "Lionel Messi",
+          "reason": "传奇球王"
+        }
+      ],
+      "mcDraw": 18.7,
+      "homeElo": 1704,
+      "awayElo": 2114,
+      "homeLambda": 0.562,
+      "awayLambda": 2.038,
+      "mostLikelyScore": "0-2"
+    },
+    {
+      "matchId": 61,
+      "teamA": {
+        "name": "Portugal",
+        "cnName": "葡萄牙",
+        "winProb": 63,
+        "mcWinProb": 63.2
+      },
+      "draw": 22,
+      "teamB": {
+        "name": "DR Congo",
+        "cnName": "刚果(金)",
+        "winProb": 15,
+        "mcWinProb": 15.0
+      },
+      "predictedScore": "1-0",
+      "confidence": "高",
+      "keyFactors": [
+        "葡萄牙ELO评分1983，远高于刚果(金)的1678",
+        "葡萄牙整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，葡萄牙胜率63.2%，平局概率21.8%，刚果(金)胜率15.0%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Portugal",
+          "player": "Cristiano Ronaldo",
+          "reason": "历史级射手"
+        },
+        {
+          "team": "DR Congo",
+          "player": "Chancel Mbemba",
+          "reason": "防线领袖"
+        }
+      ],
+      "mcDraw": 21.8,
+      "homeElo": 1983,
+      "awayElo": 1678,
+      "homeLambda": 1.849,
+      "awayLambda": 0.751,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537404,
+      "teamA": {
+        "name": "Uzbekistan",
+        "cnName": "乌兹别克斯坦",
+        "winProb": 18,
+        "mcWinProb": 18.5
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "Colombia",
+        "cnName": "哥伦比亚",
+        "winProb": 58,
+        "mcWinProb": 57.9
+      },
+      "predictedScore": "0-1",
+      "confidence": "中",
+      "keyFactors": [
+        "哥伦比亚ELO评分1975，远高于乌兹别克斯坦的1735"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，乌兹别克斯坦胜率18.5%，平局概率23.6%，哥伦比亚胜率57.9%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Uzbekistan",
+          "player": "Eldor Shomurodov",
+          "reason": "进攻核心"
+        },
+        {
+          "team": "Colombia",
+          "player": "Luis Díaz",
+          "reason": "边路爆点"
+        }
+      ],
+      "mcDraw": 23.6,
+      "homeElo": 1735,
+      "awayElo": 1975,
+      "homeLambda": 0.868,
+      "awayLambda": 1.732,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537405,
+      "teamA": {
+        "name": "Portugal",
+        "cnName": "葡萄牙",
+        "winProb": 60,
+        "mcWinProb": 59.6
+      },
+      "draw": 22,
+      "teamB": {
+        "name": "Uzbekistan",
+        "cnName": "乌兹别克斯坦",
+        "winProb": 18,
+        "mcWinProb": 17.5
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "葡萄牙ELO评分1983，远高于乌兹别克斯坦的1735",
+        "葡萄牙整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，葡萄牙胜率59.6%，平局概率22.9%，乌兹别克斯坦胜率17.5%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Portugal",
+          "player": "Cristiano Ronaldo",
+          "reason": "历史级射手"
+        },
+        {
+          "team": "Uzbekistan",
+          "player": "Eldor Shomurodov",
+          "reason": "进攻核心"
+        }
+      ],
+      "mcDraw": 22.9,
+      "homeElo": 1983,
+      "awayElo": 1735,
+      "homeLambda": 1.746,
+      "awayLambda": 0.854,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 64,
+      "teamA": {
+        "name": "Colombia",
+        "cnName": "哥伦比亚",
+        "winProb": 63,
+        "mcWinProb": 62.8
+      },
+      "draw": 22,
+      "teamB": {
+        "name": "DR Congo",
+        "cnName": "刚果(金)",
+        "winProb": 15,
+        "mcWinProb": 15.4
+      },
+      "predictedScore": "1-0",
+      "confidence": "中",
+      "keyFactors": [
+        "哥伦比亚ELO评分1975，远高于刚果(金)的1678",
+        "哥伦比亚整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，哥伦比亚胜率62.8%，平局概率21.8%，刚果(金)胜率15.4%。最可能比分为1-0。",
+      "playersToWatch": [
+        {
+          "team": "Colombia",
+          "player": "Luis Díaz",
+          "reason": "边路爆点"
+        },
+        {
+          "team": "DR Congo",
+          "player": "Chancel Mbemba",
+          "reason": "防线领袖"
+        }
+      ],
+      "mcDraw": 21.8,
+      "homeElo": 1975,
+      "awayElo": 1678,
+      "homeLambda": 1.835,
+      "awayLambda": 0.765,
+      "mostLikelyScore": "1-0"
+    },
+    {
+      "matchId": 537407,
+      "teamA": {
+        "name": "Colombia",
+        "cnName": "哥伦比亚",
+        "winProb": 35,
+        "mcWinProb": 34.8
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Portugal",
+        "cnName": "葡萄牙",
+        "winProb": 39,
+        "mcWinProb": 38.7
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，哥伦比亚胜率34.8%，平局概率26.5%，葡萄牙胜率38.7%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "Colombia",
+          "player": "Luis Díaz",
+          "reason": "边路爆点"
+        },
+        {
+          "team": "Portugal",
+          "player": "Cristiano Ronaldo",
+          "reason": "历史级射手"
+        }
+      ],
+      "mcDraw": 26.5,
+      "homeElo": 1975,
+      "awayElo": 1983,
+      "homeLambda": 1.286,
+      "awayLambda": 1.314,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 66,
+      "teamA": {
+        "name": "DR Congo",
+        "cnName": "刚果(金)",
+        "winProb": 32,
+        "mcWinProb": 31.5
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Uzbekistan",
+        "cnName": "乌兹别克斯坦",
+        "winProb": 42,
+        "mcWinProb": 42.0
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "双方实力接近，胜负难料"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，刚果(金)胜率31.5%，平局概率26.5%，乌兹别克斯坦胜率42.0%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "DR Congo",
+          "player": "Chancel Mbemba",
+          "reason": "防线领袖"
+        },
+        {
+          "team": "Uzbekistan",
+          "player": "Eldor Shomurodov",
+          "reason": "进攻核心"
+        }
+      ],
+      "mcDraw": 26.5,
+      "homeElo": 1678,
+      "awayElo": 1735,
+      "homeLambda": 1.197,
+      "awayLambda": 1.403,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537409,
+      "teamA": {
+        "name": "England",
+        "cnName": "英格兰",
+        "winProb": 44,
+        "mcWinProb": 44.0
+      },
+      "draw": 26,
+      "teamB": {
+        "name": "Croatia",
+        "cnName": "克罗地亚",
+        "winProb": 30,
+        "mcWinProb": 30.2
+      },
+      "predictedScore": "1-1",
+      "confidence": "低",
+      "keyFactors": [
+        "英格兰实力占优，ELO领先84分",
+        "英格兰整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，英格兰胜率44.0%，平局概率25.8%，克罗地亚胜率30.2%。最可能比分为1-1。",
+      "playersToWatch": [
+        {
+          "team": "England",
+          "player": "Jude Bellingham",
+          "reason": "中场引擎"
+        },
+        {
+          "team": "Croatia",
+          "player": "Luka Modrić",
+          "reason": "大师级中场"
+        }
+      ],
+      "mcDraw": 25.8,
+      "homeElo": 2022,
+      "awayElo": 1938,
+      "homeLambda": 1.451,
+      "awayLambda": 1.149,
+      "mostLikelyScore": "1-1"
+    },
+    {
+      "matchId": 537410,
+      "teamA": {
+        "name": "Ghana",
+        "cnName": "加纳",
+        "winProb": 20,
+        "mcWinProb": 19.7
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "Panama",
+        "cnName": "巴拿马",
+        "winProb": 56,
+        "mcWinProb": 56.3
+      },
+      "predictedScore": "0-1",
+      "confidence": "中",
+      "keyFactors": [
+        "巴拿马ELO评分1739，远高于加纳的1520"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，加纳胜率19.7%，平局概率24.0%，巴拿马胜率56.3%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Ghana",
+          "player": "Mohammed Kudus",
+          "reason": "进攻核心"
+        },
+        {
+          "team": "Panama",
+          "player": "Michael Murillo",
+          "reason": "防线支柱"
+        }
+      ],
+      "mcDraw": 24.0,
+      "homeElo": 1520,
+      "awayElo": 1739,
+      "homeLambda": 0.906,
+      "awayLambda": 1.694,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537411,
+      "teamA": {
+        "name": "England",
+        "cnName": "英格兰",
+        "winProb": 79,
+        "mcWinProb": 79.3
+      },
+      "draw": 16,
+      "teamB": {
+        "name": "Ghana",
+        "cnName": "加纳",
+        "winProb": 5,
+        "mcWinProb": 5.3
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "英格兰ELO评分2022，远高于加纳的1520",
+        "英格兰进攻火力强劲，预期进球2.20",
+        "加纳进攻乏力，预期进球仅0.40",
+        "英格兰整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，英格兰胜率79.3%，平局概率15.5%，加纳胜率5.3%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "England",
+          "player": "Jude Bellingham",
+          "reason": "中场引擎"
+        },
+        {
+          "team": "Ghana",
+          "player": "Mohammed Kudus",
+          "reason": "进攻核心"
+        }
+      ],
+      "mcDraw": 15.5,
+      "homeElo": 2022,
+      "awayElo": 1520,
+      "homeLambda": 2.204,
+      "awayLambda": 0.396,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 537412,
+      "teamA": {
+        "name": "Panama",
+        "cnName": "巴拿马",
+        "winProb": 21,
+        "mcWinProb": 21.0
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "Croatia",
+        "cnName": "克罗地亚",
+        "winProb": 54,
+        "mcWinProb": 54.5
+      },
+      "predictedScore": "0-1",
+      "confidence": "中",
+      "keyFactors": [
+        "克罗地亚实力占优，ELO领先199分"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，巴拿马胜率21.0%，平局概率24.5%，克罗地亚胜率54.5%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Panama",
+          "player": "Michael Murillo",
+          "reason": "防线支柱"
+        },
+        {
+          "team": "Croatia",
+          "player": "Luka Modrić",
+          "reason": "大师级中场"
+        }
+      ],
+      "mcDraw": 24.5,
+      "homeElo": 1739,
+      "awayElo": 1938,
+      "homeLambda": 0.942,
+      "awayLambda": 1.658,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537413,
+      "teamA": {
+        "name": "Panama",
+        "cnName": "巴拿马",
+        "winProb": 16,
+        "mcWinProb": 16.1
+      },
+      "draw": 23,
+      "teamB": {
+        "name": "England",
+        "cnName": "英格兰",
+        "winProb": 61,
+        "mcWinProb": 61.4
+      },
+      "predictedScore": "0-1",
+      "confidence": "中",
+      "keyFactors": [
+        "英格兰ELO评分2022，远高于巴拿马的1739"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，巴拿马胜率16.1%，平局概率22.6%，英格兰胜率61.4%。最可能比分为0-1。",
+      "playersToWatch": [
+        {
+          "team": "Panama",
+          "player": "Michael Murillo",
+          "reason": "防线支柱"
+        },
+        {
+          "team": "England",
+          "player": "Jude Bellingham",
+          "reason": "中场引擎"
+        }
+      ],
+      "mcDraw": 22.6,
+      "homeElo": 1739,
+      "awayElo": 2022,
+      "homeLambda": 0.791,
+      "awayLambda": 1.809,
+      "mostLikelyScore": "0-1"
+    },
+    {
+      "matchId": 537414,
+      "teamA": {
+        "name": "Croatia",
+        "cnName": "克罗地亚",
+        "winProb": 74,
+        "mcWinProb": 73.7
+      },
+      "draw": 17,
+      "teamB": {
+        "name": "Ghana",
+        "cnName": "加纳",
+        "winProb": 9,
+        "mcWinProb": 8.6
+      },
+      "predictedScore": "2-0",
+      "confidence": "高",
+      "keyFactors": [
+        "克罗地亚ELO评分1938，远高于加纳的1520",
+        "克罗地亚进攻火力强劲，预期进球2.05",
+        "加纳进攻乏力，预期进球仅0.55",
+        "克罗地亚整体实力占优"
+      ],
+      "analysis": "基于蒙特卡洛统计模型预测，克罗地亚胜率73.7%，平局概率17.7%，加纳胜率8.6%。最可能比分为2-0。",
+      "playersToWatch": [
+        {
+          "team": "Croatia",
+          "player": "Luka Modrić",
+          "reason": "大师级中场"
+        },
+        {
+          "team": "Ghana",
+          "player": "Mohammed Kudus",
+          "reason": "进攻核心"
+        }
+      ],
+      "mcDraw": 17.7,
+      "homeElo": 1938,
+      "awayElo": 1520,
+      "homeLambda": 2.052,
+      "awayLambda": 0.548,
+      "mostLikelyScore": "2-0"
+    },
+    {
+      "matchId": 73,
+      "teamA": {
+        "name": "2A",
+        "cnName": "2A",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "2B",
+        "cnName": "2B",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "2A vs 2B的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 74,
+      "teamA": {
+        "name": "1E",
+        "cnName": "1E",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "3A/B/C/D/F",
+        "cnName": "3A/B/C/D/F",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1E vs 3A/B/C/D/F的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 75,
+      "teamA": {
+        "name": "1F",
+        "cnName": "1F",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "2C",
+        "cnName": "2C",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1F vs 2C的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 76,
+      "teamA": {
+        "name": "1C",
+        "cnName": "1C",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "2F",
+        "cnName": "2F",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1C vs 2F的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 77,
+      "teamA": {
+        "name": "1I",
+        "cnName": "1I",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "3C/D/F/G/H",
+        "cnName": "3C/D/F/G/H",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1I vs 3C/D/F/G/H的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 78,
+      "teamA": {
+        "name": "2E",
+        "cnName": "2E",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "2I",
+        "cnName": "2I",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "2E vs 2I的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 79,
+      "teamA": {
+        "name": "1A",
+        "cnName": "1A",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "3C/E/F/H/I",
+        "cnName": "3C/E/F/H/I",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1A vs 3C/E/F/H/I的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 80,
+      "teamA": {
+        "name": "1L",
+        "cnName": "1L",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "3E/H/I/J/K",
+        "cnName": "3E/H/I/J/K",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1L vs 3E/H/I/J/K的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 81,
+      "teamA": {
+        "name": "1D",
+        "cnName": "1D",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "3B/E/F/I/J",
+        "cnName": "3B/E/F/I/J",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1D vs 3B/E/F/I/J的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 82,
+      "teamA": {
+        "name": "1G",
+        "cnName": "1G",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "3A/E/H/I/J",
+        "cnName": "3A/E/H/I/J",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1G vs 3A/E/H/I/J的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 83,
+      "teamA": {
+        "name": "2K",
+        "cnName": "2K",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "2L",
+        "cnName": "2L",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "2K vs 2L的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 84,
+      "teamA": {
+        "name": "1H",
+        "cnName": "1H",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "2J",
+        "cnName": "2J",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1H vs 2J的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 85,
+      "teamA": {
+        "name": "1B",
+        "cnName": "1B",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "3E/F/G/I/J",
+        "cnName": "3E/F/G/I/J",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1B vs 3E/F/G/I/J的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 86,
+      "teamA": {
+        "name": "1J",
+        "cnName": "1J",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "2H",
+        "cnName": "2H",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1J vs 2H的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 87,
+      "teamA": {
+        "name": "1K",
+        "cnName": "1K",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "3D/E/I/J/L",
+        "cnName": "3D/E/I/J/L",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "1K vs 3D/E/I/J/L的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 88,
+      "teamA": {
+        "name": "2D",
+        "cnName": "2D",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "2G",
+        "cnName": "2G",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "2D vs 2G的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 89,
+      "teamA": {
+        "name": "W74",
+        "cnName": "W74",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W77",
+        "cnName": "W77",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W74 vs W77的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 90,
+      "teamA": {
+        "name": "W73",
+        "cnName": "W73",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W75",
+        "cnName": "W75",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W73 vs W75的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 91,
+      "teamA": {
+        "name": "W76",
+        "cnName": "W76",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W78",
+        "cnName": "W78",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W76 vs W78的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 92,
+      "teamA": {
+        "name": "W79",
+        "cnName": "W79",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W80",
+        "cnName": "W80",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W79 vs W80的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 93,
+      "teamA": {
+        "name": "W83",
+        "cnName": "W83",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W84",
+        "cnName": "W84",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W83 vs W84的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 94,
+      "teamA": {
+        "name": "W81",
+        "cnName": "W81",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W82",
+        "cnName": "W82",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W81 vs W82的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 95,
+      "teamA": {
+        "name": "W86",
+        "cnName": "W86",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W88",
+        "cnName": "W88",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W86 vs W88的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 96,
+      "teamA": {
+        "name": "W85",
+        "cnName": "W85",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W87",
+        "cnName": "W87",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W85 vs W87的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 97,
+      "teamA": {
+        "name": "W89",
+        "cnName": "W89",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W90",
+        "cnName": "W90",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W89 vs W90的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 98,
+      "teamA": {
+        "name": "W93",
+        "cnName": "W93",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W94",
+        "cnName": "W94",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W93 vs W94的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 99,
+      "teamA": {
+        "name": "W91",
+        "cnName": "W91",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W92",
+        "cnName": "W92",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W91 vs W92的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 100,
+      "teamA": {
+        "name": "W95",
+        "cnName": "W95",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W96",
+        "cnName": "W96",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W95 vs W96的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 101,
+      "teamA": {
+        "name": "W97",
+        "cnName": "W97",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W98",
+        "cnName": "W98",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W97 vs W98的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 102,
+      "teamA": {
+        "name": "W99",
+        "cnName": "W99",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W100",
+        "cnName": "W100",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W99 vs W100的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 103,
+      "teamA": {
+        "name": "L101",
+        "cnName": "L101",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "L102",
+        "cnName": "L102",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "L101 vs L102的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    },
+    {
+      "matchId": 104,
+      "teamA": {
+        "name": "W101",
+        "cnName": "W101",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "draw": 34,
+      "teamB": {
+        "name": "W102",
+        "cnName": "W102",
+        "winProb": 33,
+        "mcWinProb": 33.3
+      },
+      "predictedScore": "0-0",
+      "confidence": "低",
+      "keyFactors": [
+        "淘汰赛阶段，对手未确定",
+        "待小组赛结束后更新预测"
+      ],
+      "analysis": "W101 vs W102的淘汰赛对阵尚未确定，待小组赛结束后更新预测。",
+      "playersToWatch": [],
+      "mcDraw": 33.3,
+      "homeElo": 0,
+      "awayElo": 0,
+      "homeLambda": 0,
+      "awayLambda": 0,
+      "mostLikelyScore": "0-0"
+    }
+  ]
+}

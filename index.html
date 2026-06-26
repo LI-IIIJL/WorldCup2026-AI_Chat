@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,
         maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="世界杯 AI 助手 — 2026 美加墨世界杯智能问答 Demo">
+    <meta name="description" content="世界杯 AI 助手 — 2026 美加墨世界杯智能问答 Demo · 数据库版">
     <title>世界杯 AI 助手 🏆</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -22,7 +22,7 @@
             </div>
             <div class="header-actions">
                 <span class="status-text" id="status-badge">
-                    LongCat AI（999/999）
+                    1246 球员 · 48 队
                 </span>
                 <button class="btn-toggle-mode" id="toggle-mode">
                     🎯 切换 Demo
@@ -57,15 +57,16 @@
             <a href="https://github.com/lijionglin/WorldCup2026-AI_Chat" target="_blank" rel="noopener">
                 WorldCup2026-AI_Chat
             </a>
-            · 由 LongCat AI 驱动 · 免费无限调用
+            · 1246 名球员 · 48 支球队 · 104 场比赛
         </footer>
     </div>
 
-    <!-- 脚本加载顺序：CONFIG → 引擎 → 客户端 → App -->
+    <!-- 脚本加载顺序：CONFIG → 引擎 → 客户端 → 数据库 → App -->
     <script src="CONFIG.js"></script>
     <script src="js/intentEngine.js"></script>
     <script src="js/faqKnowledge.js"></script>
     <script src="js/deepseekClient.js"></script>
+    <script src="js/dataQuery.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

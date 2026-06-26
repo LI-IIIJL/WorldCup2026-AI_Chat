@@ -40,11 +40,17 @@ class IntentResult {
 class IntentEngine {
     constructor() {
         this.playerNames = new Set();
+        this.teamNames = new Set();
     }
 
     /** 注入球员名（用于实体提取） */
     addPlayerNames(names) {
         names.forEach(n => this.playerNames.add(n));
+    }
+
+    /** 注入球队名（用于实体提取） */
+    addTeamNames(names) {
+        names.forEach(n => this.teamNames.add(n));
     }
 
     /** 对用户输入进行意图分类 */
@@ -203,14 +209,20 @@ class IntentEngine {
     // ==================== 实体提取 ====================
 
     _extractTeamNames(q) {
+        // 先尝试静态关键词
         const teams = ['阿根廷', '巴西', '法国', '德国', '意大利', '西班牙', '葡萄牙',
             '英格兰', '荷兰', '比利时', '克罗地亚', '乌拉圭', '墨西哥',
             '日本', '韩国', '沙特', '伊朗', '澳大利亚', '摩洛哥', '塞内加尔',
             '加纳', '喀麦隆', '尼日利亚', '美国', '加拿大', '哥斯达黎加',
             '中国', '瑞士', '波兰', '丹麦', '瑞典', '土耳其'];
         for (const team of teams) {
-            if (q.includes(team)) {
-                return { team };
+            if (q.includes(team)) return { team };
+        }
+        // 再尝试注入的完整球队名（英文）
+        for (const team of this.teamNames) {
+            const t = team.toLowerCase();
+            if (q.includes(t) || t.includes(q)) {
+                return { team: team };
             }
         }
         return {};
@@ -221,8 +233,13 @@ class IntentEngine {
             '德布劳内', '萨拉赫', '莱万', '本泽马', '莫德里奇',
             '贝林厄姆', '维尼修斯', '哈兰德', '萨卡', '福登'];
         for (const player of players) {
-            if (q.includes(player)) {
-                return { player };
+            if (q.includes(player)) return { player };
+        }
+        // 再尝试注入的完整球员名
+        for (const player of this.playerNames) {
+            const p = player.toLowerCase();
+            if (q.includes(p) || p.includes(q)) {
+                return { player: player };
             }
         }
         return {};
