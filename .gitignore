@@ -5,6 +5,12 @@
 # API Key 配置文件（防止真 Key 泄露）
 CONFIG.local.js
 
+# 后端环境变量（含真实 API Key，绝对不能提交）
+.env
+backend/.env
+backend/node_modules/
+backend/rate-limit-db.json
+
 # IDE
 .idea/
 *.iml

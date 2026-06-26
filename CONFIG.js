@@ -34,6 +34,12 @@ const CONFIG = {
 
     // ==================== 应用信息 ====================
     APP_NAME: '世界杯 AI 助手',
-    APP_VERSION: '1.0.0',
-    REPO_URL: 'https://github.com/lijionglin/WorldCup2026-AI_Chat'
+    APP_VERSION: '2.0.0',
+    REPO_URL: 'https://github.com/lijionglin/WorldCup2026-AI_Chat',
+
+    // ==================== 实时数据代理后端 ====================
+    // 部署后端后，将 BACKEND_URL 改为你的服务器地址
+    // 后端部署方式见 backend/README.md
+    // 留空 = 不使用实时数据，仅用本地数据库
+    BACKEND_URL: ''
 };

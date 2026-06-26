@@ -1,14 +1,11 @@
 /**
  * ============================================
  *  世界杯 AI 助手 — 主应用逻辑
- *  v2.0 — 集成数据库查询
+ *  v2.0 — 集成数据库查询 + 实时数据代理
  * ============================================
- *  数据来源：本地 JSON 快照（不调用任何外部 API）
- *  - players_2026.json: 1246 名球员
- *  - teams.json: 48 支球队
- *  - matches.json: 104 场比赛
- *  - predictions.json: 蒙特卡洛预测
- *  - bdl_stadiums.json: 场馆信息
+ *  数据来源：
+ *  - 本地 JSON 快照（球员/球队/比赛/预测）
+ *  - 可选后端代理（实时比分/球员数据，每设备每日限额）
  */
 
 (function() {
@@ -19,7 +16,8 @@
         messages: [],
         isLoading: false,
         aiEnabled: false,
-        dbReady: false
+        dbReady: false,
+        backendReady: false
     };
 
     // ==================== 核心组件 ====================
@@ -27,6 +25,7 @@
     const faqKnowledge = new FaqKnowledge();
     const aiClient = new AIClient(CONFIG);
     const dataQuery = new DataQuery();
+    const backendClient = new BackendClient(CONFIG);
 
     // ==================== DOM 引用 ====================
     const $ = (id) => document.getElementById(id);
@@ -43,27 +42,42 @@
         await faqKnowledge.ensureLoaded();
         await dataQuery.ensureLoaded();
 
+        // 检测后端是否可用
+        if (backendClient.isAvailable) {
+            const quota = await backendClient.getQuota();
+            state.backendReady = quota !== null;
+        }
+
         if (dataQuery.isLoaded) {
             state.dbReady = true;
-            // 注入球队名和球员名到意图引擎
             intentEngine.addTeamNames(dataQuery.getAllTeamNames());
             intentEngine.addPlayerNames(dataQuery.getAllPlayerNames());
         }
 
         updateDemoUI();
+
+        let welcomeText = '👋 你好！我是世界杯 AI 助手 ⚽\n\n我可以帮你：\n• ⚽ 回答足球规则问题（越位、VAR等）\n';
+
+        if (state.dbReady) {
+            welcomeText += '• ⭐ 查询球员资料（梅西、姆巴佩等 1246 名球员）\n' +
+                          '• 🏟️ 了解球队信息（48 支参赛队阵容）\n' +
+                          '• 🔮 查看比赛预测（蒙特卡洛模型数据）\n' +
+                          '• 📊 查询比赛结果（已完赛场次比分）\n';
+        }
+
+        if (state.backendReady) {
+            welcomeText += '• 🔴 **实时数据已连接** — 可查询最新比分和球员数据（每日少量配额）\n';
+        }
+
+        if (!state.dbReady) {
+            welcomeText += '• 🔮 查看预测与夺冠分析\n';
+        }
+
+        welcomeText += '• 🏆 世界杯历史知识\n\n试试下面的建议问题吧！👇';
+
         addMessage({
             role: 'ai',
-            text: '👋 你好！我是世界杯 AI 助手 ⚽\n\n' +
-                '我可以帮你：\n' +
-                '• ⚽ 回答足球规则问题（越位、VAR等）\n' +
-                (state.dbReady
-                    ? '• ⭐ **查询球员资料**（梅西、姆巴佩等 1246 名球员）\n' +
-                      '• 🏟️ **了解球队信息**（48 支参赛队阵容）\n' +
-                      '• 🔮 **查看比赛预测**（蒙特卡洛模型数据）\n' +
-                      '• 📊 **查询比赛结果**（已完赛场次比分）\n'
-                    : '• 🔮 查看预测与夺冠分析\n') +
-                '• 🏆 世界杯历史知识\n\n' +
-                '试试下面的建议问题吧！👇',
+            text: welcomeText,
             isWelcome: true
         });
         renderSuggestions(getInitialSuggestions());
@@ -116,6 +130,14 @@
                 { text: 'VAR 是什么？', icon: '🖥️' },
                 { text: '2026 世界杯赛制', icon: '🏆' },
                 { text: '中国队进过世界杯吗？', icon: '🇨🇳' }
+            ];
+        }
+        if (state.backendReady) {
+            return [
+                { text: '越位是什么意思？', icon: '⚽' },
+                { text: '梅西是谁？', icon: '⭐' },
+                { text: '实时比分查询', icon: '🔴' },
+                { text: '墨西哥 vs 南非预测', icon: '🔮' }
             ];
         }
         return [
@@ -211,7 +233,6 @@
                 // 尝试从意图引擎提取的实体查询
                 let playerName = intent.entities.player;
                 if (!playerName) {
-                    // 从查询文本中提取：去除"是谁/介绍/球员"等关键词
                     const cleaned = query.replace(/是谁|他是谁|介绍|球员|资料/g, '').trim();
                     playerName = cleaned;
                 }
@@ -233,7 +254,23 @@
                     reply += '\n💡 输入完整姓名获取详细信息！';
                     return reply;
                 }
-                return null; // 没找到，交给 AI 或兜底
+
+                // 数据库未命中 → 尝试实时 API 代理
+                if (state.backendReady) {
+                    const livePlayer = await backendClient.searchPlayer(playerName);
+                    if (livePlayer && livePlayer.length > 0) {
+                        const p = livePlayer[0];
+                        const quotaInfo = backendClient.quotaInfo;
+                        return `⭐ **${p.name}**（实时数据）\n\n` +
+                              `位置：${p.position || '?'}\n` +
+                              `球队：${p.team || '?'}\n` +
+                              `评分：${p.rating || '暂无'}\n` +
+                              `进球：${p.goals} | 助攻：${p.assists}\n\n` +
+                              `📡 数据来源：api-sports.io（剩余配额 ${quotaInfo?.remaining || '?'}/${quotaInfo?.limit || '?'}）`;
+                    }
+                }
+
+                return null;
             }
 
             case IntentType.TEAM_INFO: {
@@ -285,12 +322,10 @@
                 if (!team) return null;
 
                 const matches = dataQuery.getTeamMatches(team.name);
-
-                // 筛选已完成和即将进行的
                 const finished = matches.filter(m => m.status === 'FINISHED').slice(-3);
                 const upcoming = matches.filter(m => m.status !== 'FINISHED').slice(0, 3);
 
-                let reply = `📊 **${team.nameCn || team.name}** 比赛数据\n\n`;
+                let reply = `📊 **${team.nameCn || team.name}** 比赛数据（本地数据库）\n\n`;
 
                 if (finished.length > 0) {
                     reply += '✅ **已完赛**：\n';
@@ -305,6 +340,26 @@
                     reply += '\n📅 **即将进行**：\n';
                     for (const m of upcoming) {
                         reply += `• ${dataQuery.formatMatchCard(m)}\n`;
+                    }
+                }
+
+                // 如果有后端，尝试获取实时数据补充
+                if (state.backendReady) {
+                    const liveScores = await backendClient.getLiveScores();
+                    if (liveScores && liveScores.length > 0) {
+                        const teamMatches = liveScores.filter(m =>
+                            (m.homeTeam || '').toLowerCase().includes(team.name.toLowerCase()) ||
+                            (m.awayTeam || '').toLowerCase().includes(team.name.toLowerCase())
+                        );
+                        if (teamMatches.length > 0) {
+                            reply += '\n🔴 **实时数据**（来自后端代理）：\n';
+                            for (const m of teamMatches) {
+                                reply += `• ${m.homeTeam} ${m.homeScore ?? '?'} - ${m.awayScore ?? '?'} ${m.awayTeam}\n`;
+                                reply += `  状态: ${m.status} | 数据源: ${m.source}\n`;
+                            }
+                            const quotaInfo = backendClient.quotaInfo;
+                            reply += `📡 剩余配额: ${quotaInfo?.remaining || '?'}/${quotaInfo?.limit || '?'}\n`;
+                        }
                     }
                 }
 
@@ -488,42 +543,52 @@
 
     function getUpdatedSuggestions() {
         const n = state.messages.length;
+        const hasBackend = state.backendReady;
+
         if (n <= 3) {
-            return state.dbReady ? [
-                { text: '越位是什么意思？', icon: '⚽' },
-                { text: '梅西是谁？', icon: '⭐' },
+            if (!state.dbReady) {
+                return [
+                    { text: '越位是什么意思？', icon: '⚽' },
+                    { text: 'VAR 是什么？', icon: '🖥️' },
+                    { text: '2026 世界杯赛制', icon: '🏆' },
+                    { text: '大力神杯的材质', icon: '🏟️' }
+                ];
+            }
+            return hasBackend ? [
+                { text: '查姆巴佩的实时数据', icon: '⭐' },
+                { text: '实时比分查询', icon: '🔴' },
                 { text: '阿根廷队阵容', icon: '🇦🇷' },
                 { text: '墨西哥 vs 南非预测', icon: '🔮' }
             ] : [
                 { text: '越位是什么意思？', icon: '⚽' },
-                { text: 'VAR 是什么？', icon: '🖥️' },
-                { text: '2026 世界杯赛制', icon: '🏆' },
-                { text: '大力神杯的材质', icon: '🏟️' }
+                { text: '梅西是谁？', icon: '⭐' },
+                { text: '阿根廷队阵容', icon: '🇦🇷' },
+                { text: '墨西哥 vs 南非预测', icon: '🔮' }
             ];
         }
         if (n <= 8) {
-            return state.dbReady ? [
+            return hasBackend ? [
+                { text: '我最喜欢的球队最新比分', icon: '🔴' },
+                { text: '巴西队阵容', icon: '🇧🇷' },
+                { text: '查询梅西的赛季数据', icon: '⭐' },
+                { text: '点球大战规则', icon: '⚽' }
+            ] : [
                 { text: '姆巴佩是谁？', icon: '⭐' },
                 { text: '巴西队阵容', icon: '🇧🇷' },
                 { text: '法国队比赛结果', icon: '📊' },
                 { text: '点球大战规则', icon: '⚽' }
-            ] : [
-                { text: '点球大战规则', icon: '⚽' },
-                { text: '什么是帽子戏法？', icon: '🎩' },
-                { text: '金靴奖怎么评？', icon: '🥇' },
-                { text: '2026 场馆分布', icon: '🏟️' }
             ];
         }
-        return state.dbReady ? [
+        return hasBackend ? [
+            { text: '中国队阵容', icon: '🇨🇳' },
+            { text: '夺冠热门预测', icon: '🏆' },
+            { text: '看看实时比赛数据', icon: '🔴' },
+            { text: '转会费最贵的球员', icon: '💰' }
+        ] : [
             { text: '中国队阵容有哪些人？', icon: '🇨🇳' },
             { text: '夺冠热门预测', icon: '🏆' },
             { text: '转会费最贵的球员', icon: '💰' },
             { text: '英格兰队比赛', icon: '🏴󠁧󠁢󠁥󠁮󠁧󠁿' }
-        ] : [
-            { text: 'FIFA 排名怎么算？', icon: '📊' },
-            { text: '半自动越位技术', icon: '🖥️' },
-            { text: '中国队进过世界杯吗？', icon: '🇨🇳' },
-            { text: '转会费最贵的球员', icon: '💰' }
         ];
     }
 
@@ -545,13 +610,34 @@
         if (isDemo) {
             demoIndicator.textContent = '🎯 Demo 模式';
             demoIndicator.className = 'badge badge-demo';
-            statusBadge.textContent = state.dbReady ? '本地 FAQ + 数据库' : '本地 FAQ（0/∞）';
+
+            if (state.backendReady) {
+                const quota = backendClient.quotaInfo;
+                if (quota) {
+                    statusBadge.textContent = `实时数据 ${quota.remaining}/${quota.limit}`;
+                } else {
+                    statusBadge.textContent = '实时数据已连接';
+                }
+            } else if (state.dbReady) {
+                statusBadge.textContent = '本地 FAQ + 数据库';
+            } else {
+                statusBadge.textContent = '本地 FAQ（0/∞）';
+            }
+
             toggleMode.textContent = '🔓 开启 AI';
         } else {
             const quota = aiClient.getRemainingQuota();
             demoIndicator.textContent = '🤖 AI 模式';
             demoIndicator.className = 'badge badge-ai';
-            statusBadge.textContent = `LongCat AI（${quota}/${CONFIG.DAILY_API_QUOTA}）`;
+
+            let backendInfo = '';
+            if (state.backendReady) {
+                const bq = backendClient.quotaInfo;
+                if (bq) backendInfo = ` | 实时数据 ${bq.remaining}/${bq.limit}`;
+                else backendInfo = ' | 实时数据已连';
+            }
+
+            statusBadge.textContent = `LongCat AI（${quota}/${CONFIG.DAILY_API_QUOTA}）${backendInfo}`;
             if (!aiClient.hasApiKey) statusBadge.textContent = '⚠️ 未配置 API Key';
         }
     }
