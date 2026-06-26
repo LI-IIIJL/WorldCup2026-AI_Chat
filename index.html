@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+        maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="世界杯 AI 助手 — 2026 美加墨世界杯智能问答 Demo">
+    <title>世界杯 AI 助手 🏆</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 头部 -->
+        <header class="app-header">
+            <div class="header-left">
+                <h1>⚽ 世界杯 AI 助手</h1>
+                <div class="header-badges">
+                    <span class="badge badge-ai" id="demo-indicator">
+                        🤖 AI 模式
+                    </span>
+                </div>
+            </div>
+            <div class="header-actions">
+                <span class="status-text" id="status-badge">
+                    LongCat AI（999/999）
+                </span>
+                <button class="btn-toggle-mode" id="toggle-mode">
+                    🎯 切换 Demo
+                </button>
+            </div>
+        </header>
+
+        <!-- 建议问题栏 -->
+        <div class="suggestions-container">
+            <div class="suggestions-bar" id="suggestions-bar"></div>
+        </div>
+
+        <!-- 聊天消息 -->
+        <div class="chat-messages" id="chat-messages"></div>
+
+        <!-- 输入区 -->
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input
+                    type="text"
+                    id="user-input"
+                    placeholder="输入你的问题..."
+                    autocomplete="off"
+                    maxlength="500"
+                >
+                <button id="send-btn">发送</button>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <footer class="app-footer">
+            <a href="https://github.com/lijionglin/WorldCup2026-AI_Chat" target="_blank" rel="noopener">
+                WorldCup2026-AI_Chat
+            </a>
+            · 由 LongCat AI 驱动 · 免费无限调用
+        </footer>
+    </div>
+
+    <!-- 脚本加载顺序：CONFIG → 引擎 → 客户端 → App -->
+    <script src="CONFIG.js"></script>
+    <script src="js/intentEngine.js"></script>
+    <script src="js/faqKnowledge.js"></script>
+    <script src="js/deepseekClient.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

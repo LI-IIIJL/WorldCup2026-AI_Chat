@@ -1,0 +1,21 @@
+# ====================
+#  WorldCup2026-AI_Chat
+# ====================
+
+# API Key 配置文件（防止真 Key 泄露）
+CONFIG.local.js
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Logs
+*.log
